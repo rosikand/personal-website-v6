@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Rohan's Webpage"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - research.qmd
+      - projects.qmd
+      - writing.qmd
+      - blog.qmd
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true

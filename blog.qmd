@@ -1,0 +1,9 @@
+---
+title: "Blog"
+listing:
+  type: table
+  contents: "posts/*.qmd"
+  fields: [image, date, title, reading-time]
+---
+
+<br>

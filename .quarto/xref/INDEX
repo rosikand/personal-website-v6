@@ -1,0 +1,28 @@
+{
+  "index.qmd": {
+    "index.html": "fa03a18d"
+  },
+  "about.qmd": {
+    "about.html": "11ec631d"
+  },
+  "research.qmd": {
+    "research.html": "3c821a48"
+  },
+  "projects.qmd": {
+    "projects.html": "24b17644"
+  },
+  "writing.qmd": {
+    "writing.html": "57c9e088"
+  },
+  "blog.qmd": {
+    "blog.html": "80f89929"
+  },
+  "posts/wow.qmd": {
+    "wow.html": "8e45f20c",
+    "wow.tex": "d6a20711",
+    "wow.docx": "186ddf9c"
+  },
+  "posts/test.qmd": {
+    "test.html": "c59b34eb"
+  }
+}
