@@ -1,9 +1,9 @@
 ---
 title: "Blog"
 listing:
-  type: table
+  type: default
   contents: "posts/*.qmd"
-  fields: [image, date, title, reading-time]
+  fields: [date, title, reading-time]
 ---
 
 <br>

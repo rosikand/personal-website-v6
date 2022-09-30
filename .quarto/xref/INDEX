@@ -24,5 +24,15 @@
   },
   "posts/test.qmd": {
     "test.html": "c59b34eb"
+  },
+  "posts/markdown-image-workflow.qmd": {
+    "markdown-image-workflow.html": "1e3ad4f4",
+    "markdown-image-workflow.tex": "639ef537",
+    "markdown-image-workflow.docx": "185aac93"
+  },
+  "posts/archived/wow.qmd": {
+    "wow.html": "7acb8cc0",
+    "wow.tex": "2288eef2",
+    "wow.docx": "a7a77f95"
   }
 }

@@ -7,6 +7,27 @@
     "text": "About this site"
   },
   {
+    "objectID": "posts/markdown-image-workflow.html",
+    "href": "posts/markdown-image-workflow.html",
+    "title": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code",
+    "section": "",
+    "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
+  },
+  {
+    "objectID": "posts/markdown-image-workflow.html#the-standard-workflow",
+    "href": "posts/markdown-image-workflow.html#the-standard-workflow",
+    "title": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code",
+    "section": "The standard workflow",
+    "text": "The standard workflow\nIncorporating images is a necessary function to have when typing notes, live, during lecture. And not only that, we need to do this fast. This is problematic in plain markdown because it requires us to…\n\nDownload the image file and save it to some path\nSpecify the path relative to your document like so: ![alt text](../some_long/path/im.png) in the document itself.\n\nIn some ways, you’d be done there. But… most figures are quite large and take up majority of the page…\n\n\n\nno good! And guess what? There is no standard way to resize images in markdown! So you’d have to specify an HTML element like so:\n<img src=\"http://www.fillmurray.com/460/300\">\nFrom here, you could in theory add image alignment and sizing, but this still takes another ~45 seconds:\n<p align=\"center\">\n    <img alt=\"picture 1\" src=\"http://www.fillmurray.com/460/300\" width=\"350\" />  \n</p>\nIn all, this whole process probably takes ~2 minutes per image. And if you are typing live during a lecture, you’ll quickly be lost in the content and won’t be able to keep up with the lecturer. For these reasons, after playing around with various ideas, I describe a new workflow below."
+  },
+  {
+    "objectID": "posts/markdown-image-workflow.html#a-new-efficient-workflow",
+    "href": "posts/markdown-image-workflow.html#a-new-efficient-workflow",
+    "title": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code",
+    "section": "A new, efficient workflow",
+    "text": "A new, efficient workflow\nFirst of all, this workflow is powered by:\n\nVS Code (necessary to use due to the use of the extension listed below)\nMarkdown Image VS Code extension by Hancel.Lin (link)\n\nThe main philosophy:\n\nWe want to upload the images on a remote server and retrieve a URL in return. We will use this as the path since it eliminates the need to download, save, and specify the path locally.\n\nWe use a public Github repo to upload the images to automatically. This allows us to store our images on Github’s servers and retrieve a URL on the internet.\n\nNote: You can also use this setup with some other CDN delivery network that the Markdown Image extension allows for (such as Cloudflare). But I personally think Github is the safest and best option.\n\n\n\n\nSetup\n\nMake a new Github repo to store the images.\nOpen up the config settings for the above extension in VS Code. Specify the following fields based on your account info and repo:\n\nbranch\npath (i.e., the folder inside your GH repo where you want to store the images)\nrepository name\ntoken (your personal access token)\n\nNow change the base upload method field to ‘Github’ in the extension settings.\n(Optional) while you are at it, you can also change the base image width in the extension settings, the code type (I prefer the HTML string over raw Markdown since it renders nicely in Github’s web interface), the max image width (I use 300-400).\n(Optional) if you want center-alignment, make a VS Code snippet with the following code:\n\n<p align=\"center\">\n     \n</p>\nand then paste your image in between the element block dividers.\nAnd that’s it! All you need to do is copy an image to your clipboard (i.e., from a screenshot) and paste it in using the extension by right-clicking and select (if enabled and there is other extensions overwriting the command):\n\n\n\ndone! Now your image uploading should take about ~5 seconds (a much better improvement from ~2 minutes!)."
+  },
+  {
     "objectID": "posts/wow.html",
     "href": "posts/wow.html",
     "title": "Some quarto notes",
@@ -42,6 +63,41 @@
     "text": "Rendering code\n\ns\n\n\nThis is awspan that has the class aside which places it in the margin without a footnote number.wljekw\nns qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. sqwdl,mqwqwdl,mqw qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk."
   },
   {
+    "objectID": "posts/archived/wow.html",
+    "href": "posts/archived/wow.html",
+    "title": "Some quarto notes",
+    "section": "",
+    "text": "Red\nGreen\nBlue"
+  },
+  {
+    "objectID": "posts/archived/wow.html#shapes",
+    "href": "posts/archived/wow.html#shapes",
+    "title": "Some quarto notes",
+    "section": "Shapes",
+    "text": "Shapes\n\nSquare\nCircle\nTriangle"
+  },
+  {
+    "objectID": "posts/archived/wow.html#textures",
+    "href": "posts/archived/wow.html#textures",
+    "title": "Some quarto notes",
+    "section": "Textures",
+    "text": "Textures\n\nSmooth\nBumpy\nFuzzy"
+  },
+  {
+    "objectID": "posts/archived/wow.html#physics",
+    "href": "posts/archived/wow.html#physics",
+    "title": "Some quarto notes",
+    "section": "Physics",
+    "text": "Physics\nEinstein’s theory of special relatively that expresses the equivalence of mass and energy: E = mc^{2}. See Equation 1 to better understand standard deviation.\nbetter understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard\nEven more so:\n\n4x + 5 = 6\n\\tag{1}\n\nLike wow!wmqwldqwwe\n\nAnd wow! Even add callout:\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important. Some math 4 involved: \n4x+3=2\n\\\\\n4x=-1\n\\\\\nx=\\frac{-1}{4}\n\nAnd some code:\nprint(5)\n\n\nOh how cool."
+  },
+  {
+    "objectID": "posts/archived/wow.html#rendering-code",
+    "href": "posts/archived/wow.html#rendering-code",
+    "title": "Some quarto notes",
+    "section": "Rendering code",
+    "text": "Rendering code\n\ns\n\n\nThis is awspan that has the class aside which places it in the margin without a footnote number.wljekw\nns qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. sqwdl,mqwqwdl,mqw qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -67,6 +123,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading Time\n\n\n\n\n\n\n\n \n\n\n\nSep 28, 2022\n\n\nSome quarto notes\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\n3 min\n\n\n\n\n\n\n\n\nSome quarto notes\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

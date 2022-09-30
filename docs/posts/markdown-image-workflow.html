@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2022-09-30">
+
+<title>Rohan’s Webpage - A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Rohan’s Webpage</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects.html">Projects</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../writing.html">Writing</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html">Blog</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-standard-workflow" id="toc-the-standard-workflow" class="nav-link active" data-scroll-target="#the-standard-workflow">The standard workflow</a></li>
+  <li><a href="#a-new-efficient-workflow" id="toc-a-new-efficient-workflow" class="nav-link" data-scroll-target="#a-new-efficient-workflow">A new, efficient workflow</a>
+  <ul class="collapse">
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 30, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a <em>perfect</em> solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to <a href="castel.dev">castel.dev</a>), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class).</p>
+<section id="the-standard-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="the-standard-workflow">The standard workflow</h2>
+<p>Incorporating images is a necessary function to have when typing notes, live, during lecture. And not only that, we need to do this <em>fast</em>. This is problematic in plain markdown because it requires us to…</p>
+<ol type="1">
+<li>Download the image file and save it to some path</li>
+<li>Specify the path relative to your document like so: <code>![alt text](../some_long/path/im.png)</code> in the document itself.</li>
+</ol>
+<p>In some ways, you’d be done there. But… most figures are quite large and take up majority of the page…</p>
+<p align="center">
+<img alt="picture 1" src="https://cdn.jsdelivr.net/gh/minimatest/vscode-images/images/9abf2bc53d1e701cd13fb8dafc597dac1c1f4731f7ccec2ab89355144e6c2548.png" width="350">
+</p>
+<p>no good! And guess what? There is no standard way to resize images in markdown! So you’d have to specify an HTML element like so:</p>
+<pre><code>&lt;img src="http://www.fillmurray.com/460/300"&gt;</code></pre>
+<p>From here, you could in theory add image alignment and sizing, but this still takes another ~45 seconds:</p>
+<pre><code>&lt;p align="center"&gt;
+    &lt;img alt="picture 1" src="http://www.fillmurray.com/460/300" width="350" /&gt;  
+&lt;/p&gt;</code></pre>
+<p>In all, this whole process probably takes ~2 minutes <em>per image</em>. And if you are typing live during a lecture, you’ll quickly be lost in the content and won’t be able to keep up with the lecturer. For these reasons, after playing around with various ideas, I describe a new workflow below.</p>
+</section>
+<section id="a-new-efficient-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="a-new-efficient-workflow">A new, efficient workflow</h2>
+<p>First of all, this workflow is <strong>powered by</strong>:</p>
+<ul>
+<li>VS Code (necessary to use due to the use of the extension listed below)</li>
+<li>Markdown Image VS Code extension by Hancel.Lin (<a href="https://marketplace.visualstudio.com/items?itemName=hancel.markdown-image">link</a>)</li>
+</ul>
+<p><strong>The main philosophy</strong>:</p>
+<ul>
+<li>We want to upload the images on a remote server and retrieve a URL in return. We will use this as the path since it eliminates the need to download, save, and specify the path locally.
+<ul>
+<li>We use a public Github repo to upload the images to automatically. This allows us to store our images on Github’s servers and retrieve a URL on the internet.
+<ul>
+<li>Note: You can also use this setup with some other CDN delivery network that the Markdown Image extension allows for (such as Cloudflare). But I personally think Github is the safest and best option.</li>
+</ul></li>
+</ul></li>
+</ul>
+<section id="setup" class="level3">
+<h3 class="anchored" data-anchor-id="setup">Setup</h3>
+<ol type="1">
+<li>Make a new Github repo to store the images.</li>
+<li>Open up the config settings for the above extension in VS Code. Specify the following fields based on your account info and repo:
+<ul>
+<li>branch</li>
+<li>path (i.e., the folder inside your GH repo where you want to store the images)</li>
+<li>repository name</li>
+<li>token (your personal access token)</li>
+</ul></li>
+<li>Now change the base upload method field to ‘Github’ in the extension settings.</li>
+<li>(Optional) while you are at it, you can also change the base image width in the extension settings, the code type (I prefer the HTML string over raw Markdown since it renders nicely in Github’s web interface), the max image width (I use <span class="math inline">300</span>-<span class="math inline">400</span>).</li>
+<li>(Optional) if you want center-alignment, make a VS Code snippet with the following code:</li>
+</ol>
+<pre><code>&lt;p align="center"&gt;
+     
+&lt;/p&gt;</code></pre>
+<p>and then paste your image in between the element block dividers.</p>
+<p>And that’s it! All you need to do is copy an image to your clipboard (i.e., from a screenshot) and paste it in using the extension by right-clicking and select (if enabled and there is other extensions overwriting the command):</p>
+<p align="center">
+<img alt="picture 2" src="https://cdn.jsdelivr.net/gh/minimatest/vscode-images/images/dffbb1bb401b9254e8ef1a0ea246185e5da96b49932e95acf914fc87f2c960d3.png" width="300">
+</p>
+<p>done! Now your image uploading should take about ~5 seconds (a much better improvement from ~2 minutes!).</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

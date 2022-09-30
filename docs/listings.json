@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/markdown-image-workflow.html",
       "/posts/wow.html"
     ]
   }
