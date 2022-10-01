@@ -1,0 +1,46 @@
+---
+toc: true
+title: "Resume"
+---
+
+> Here are short descriptions and links for some of my "experiences". A miniature and interactive resume if you will. 
+
+## Education 
+
+#### Stanford University 
+[June 2022 – September 2022 • South San Francisco, CA]{style="color: grey;"}
+
+- Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.
+- Gained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.
+- See [here](pages/insitro.md) for more details. 
+
+
+
+
+## Experience 
+
+#### Machine Learning Engineering Intern at [insitro](https://insitro.com/) 
+[June 2022 – September 2022 • South San Francisco, CA]{style="color: grey;"}
+
+- Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.
+- Gained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.
+- See [here](pages/insitro.md) for more details. 
+
+<!-- 
+<div>
+    <h3 class="text-xl font-serif mb-0.5">Machine Learning Engineering Intern at <a href="https://insitro.com/" rel="" class="svelte-13oa6e1">insitro</a></h3>
+    <p class="font-serif mb-2"><span class="whitespace-nowrap">June 2022 – September 2022</span>
+    <span class="px-0.5 text-gray-500">•</span>
+    <span class="whitespace-nowrap">South San Francisco, CA</span></p>
+    <ul>
+        <li>Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent
+        phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.
+        </li>
+        <li>
+        Gained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.
+        </li>
+        <li>
+        See [here](pages/insitro.md) for more details. 
+        </li>
+    </ul>
+</div> -->

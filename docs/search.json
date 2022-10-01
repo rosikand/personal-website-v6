@@ -7,6 +7,27 @@
     "text": "About this site"
   },
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Here are short descriptions and links for some of my “experiences”. A miniature and interactive resume if you will."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\n\nStanford University\nJune 2022 – September 2022 • South San Francisco, CA\n\nConducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.\nGained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.\nSee here for more details."
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\nMachine Learning Engineering Intern at insitro\nJune 2022 – September 2022 • South San Francisco, CA\n\nConducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.\nGained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.\nSee here for more details."
+  },
+  {
     "objectID": "posts/markdown-image-workflow.html",
     "href": "posts/markdown-image-workflow.html",
     "title": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code",
@@ -26,41 +47,6 @@
     "title": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code",
     "section": "A new, efficient workflow",
     "text": "A new, efficient workflow\nFirst of all, this workflow is powered by:\n\nVS Code (necessary to use due to the use of the extension listed below)\nMarkdown Image VS Code extension by Hancel.Lin (link)\n\nThe main philosophy:\n\nWe want to upload the images on a remote server and retrieve a URL in return. We will use this as the path since it eliminates the need to download, save, and specify the path locally.\n\nWe use a public Github repo to upload the images to automatically. This allows us to store our images on Github’s servers and retrieve a URL on the internet.\n\nNote: You can also use this setup with some other CDN delivery network that the Markdown Image extension allows for (such as Cloudflare). But I personally think Github is the safest and best option.\n\n\n\n\nSetup\n\nMake a new Github repo to store the images.\nOpen up the config settings for the above extension in VS Code. Specify the following fields based on your account info and repo:\n\nbranch\npath (i.e., the folder inside your GH repo where you want to store the images)\nrepository name\ntoken (your personal access token)\n\nNow change the base upload method field to ‘Github’ in the extension settings.\n(Optional) while you are at it, you can also change the base image width in the extension settings, the code type (I prefer the HTML string over raw Markdown since it renders nicely in Github’s web interface), the max image width (I use 300-400).\n(Optional) if you want center-alignment, make a VS Code snippet with the following code:\n\n<p align=\"center\">\n     \n</p>\nand then paste your image in between the element block dividers.\nAnd that’s it! All you need to do is copy an image to your clipboard (i.e., from a screenshot) and paste it in using the extension by right-clicking and select (if enabled and there is other extensions overwriting the command):\n\n\n\ndone! Now your image uploading should take about ~5 seconds (a much better improvement from ~2 minutes!)."
-  },
-  {
-    "objectID": "posts/wow.html",
-    "href": "posts/wow.html",
-    "title": "Some quarto notes",
-    "section": "",
-    "text": "Red\nGreen\nBlue"
-  },
-  {
-    "objectID": "posts/wow.html#shapes",
-    "href": "posts/wow.html#shapes",
-    "title": "Some quarto notes",
-    "section": "Shapes",
-    "text": "Shapes\n\nSquare\nCircle\nTriangle"
-  },
-  {
-    "objectID": "posts/wow.html#textures",
-    "href": "posts/wow.html#textures",
-    "title": "Some quarto notes",
-    "section": "Textures",
-    "text": "Textures\n\nSmooth\nBumpy\nFuzzy"
-  },
-  {
-    "objectID": "posts/wow.html#physics",
-    "href": "posts/wow.html#physics",
-    "title": "Some quarto notes",
-    "section": "Physics",
-    "text": "Physics\nEinstein’s theory of special relatively that expresses the equivalence of mass and energy: E = mc^{2}. See Equation 1 to better understand standard deviation.\nbetter understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard better understand standard\nEven more so:\n\n4x + 5 = 6\n\\tag{1}\n\nLike wow!wmqwldqwwe\n\nAnd wow! Even add callout:\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important. Some math 4 involved: \n4x+3=2\n\\\\\n4x=-1\n\\\\\nx=\\frac{-1}{4}\n\nAnd some code:\nprint(5)\n\n\nOh how cool."
-  },
-  {
-    "objectID": "posts/wow.html#rendering-code",
-    "href": "posts/wow.html#rendering-code",
-    "title": "Some quarto notes",
-    "section": "Rendering code",
-    "text": "Rendering code\n\ns\n\n\nThis is awspan that has the class aside which places it in the margin without a footnote number.wljekw\nns qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. sqwdl,mqwqwdl,mqw qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk."
   },
   {
     "objectID": "posts/archived/wow.html",
@@ -119,10 +105,31 @@
     "text": "About this site"
   },
   {
+    "objectID": "pages/insitro.html",
+    "href": "pages/insitro.html",
+    "title": "Insitro Internship - Summer 2022",
+    "section": "",
+    "text": "Machine Learning Engineering Intern - insitro, Summer 2022"
+  },
+  {
+    "objectID": "pages/insitro.html#experience",
+    "href": "pages/insitro.html#experience",
+    "title": "Insitro Internship - Summer 2022",
+    "section": "Experience",
+    "text": "Experience\nIn the Summer of 2022, I interned at insitro, an ML-powered drug discovery company, led by Daphne Koller. My experience was nothing short of amazing, and I definately learned a ton. While I had a lot of machine learning engineering experience prior to coming to insitro, I lacked knowledge of industry tools. At insitro, I was able to broaden my horizons and learn about concepts such as Amazon AWS, EC2, Batch; Weights and Biases; Git and Github pull requests; PyTorch distributed; and much more."
+  },
+  {
+    "objectID": "pages/insitro.html#project",
+    "href": "pages/insitro.html#project",
+    "title": "Insitro Internship - Summer 2022",
+    "section": "Project",
+    "text": "Project\nIn this section, I give a brief overview of the project I conducted during my time at insitro.\n\nProject title: “Exploring Experimental Machine Learning Strategies for Improving Neuron Segmentation Models”"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\n3 min\n\n\n\n\n\n\n\n\nSome quarto notes\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

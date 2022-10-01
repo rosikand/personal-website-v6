@@ -34,5 +34,20 @@
     "wow.html": "7acb8cc0",
     "wow.tex": "2288eef2",
     "wow.docx": "a7a77f95"
+  },
+  "pages/internships.qmd": {
+    "internships.html": "594a5c14"
+  },
+  "pages/insitro.qmd": {
+    "insitro.html": "a6c5eaf5"
+  },
+  "pages/insitro.md": {
+    "insitro.html": "9c073939"
+  },
+  "resume.md": {
+    "resume.html": "c6828af5"
+  },
+  "resume.qmd": {
+    "resume.html": "ac826848"
   }
 }
