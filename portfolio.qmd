@@ -1,7 +1,9 @@
 ---
 title: "Portfolio"
+aliases:
+  - https://rosikand.github.io/old-websites/portfolio.html
 ---
 
 > This page contains overviews and links for most of my technical work done over the years. 
 
-It needs to be updated... so for now, visit [rosikand.github.io/portfolio](https://rosikand.github.io/portfolio). 
+It needs to be updated... so for now, visit [https://rosikand.github.io/old-websites/portfolio.html](https://rosikand.github.io/old-websites/portfolio.html). 
