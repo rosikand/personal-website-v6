@@ -2,7 +2,7 @@
 title: "Rohan Sikand"
 about:
   template: solana  # note: trestles theme is also nice 
-  image: assets/roclose.jpg
+  image: assets/unnamed.png
   image-width: 10em
   links:
     - icon: github
