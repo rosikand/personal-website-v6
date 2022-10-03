@@ -1,25 +1,20 @@
 ---
 toc: true
-title: "Resume"
+title: "Experience"
 ---
-
-> Here are short descriptions and links for some of my "experiences". A miniature and interactive resume if you will. 
+<!-- 
+> Here are short descriptions and links for some of my "experiences". A miniature and interactive resume if you will.  -->
 
 ## Education 
 
-#### Stanford University 
-[June 2022 – September 2022 • South San Francisco, CA]{style="color: grey;"}
+#### <img src="assets/evergreen.png" height=45em"> Stanford University, 
+[B.S. Computer Science • 2020 – 2024 • Stanford, CA]{style="color: grey;"}
 
-- Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.
-- Gained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.
-- See [here](pages/insitro.md) for more details. 
-
-
-
+- **Selected coursework**: CS 221 (AI, in progress), CS 330 (Meta Learning, in progress), CS 107 (Computer Systems), ENGR 108 (Matrix Methods), CS 109 (Probability), CS 111 (Operating Systems), CS 279 (Computational Biology), CS 103 (Theory of Computing), Math 51 (Linear Algebra + Multivariable Calculus)
 
 ## Experience 
 
-#### Machine Learning Engineering Intern at [insitro](https://insitro.com/) 
+#### <img src="assets/insitro-logo-file.png" height=45em"> Machine Learning Engineering Intern at [insitro](https://insitro.com/) 
 [June 2022 – September 2022 • South San Francisco, CA]{style="color: grey;"}
 
 - Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc.

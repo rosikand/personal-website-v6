@@ -49,5 +49,20 @@
   },
   "resume.qmd": {
     "resume.html": "ac826848"
+  },
+  "404.qmd": {
+    "404.html": "ca3d300b"
+  },
+  "portfolio.qmd": {
+    "portfolio.html": "0040989e"
+  },
+  "experience.qmd": {
+    "experience.html": "61a3d1e3"
+  },
+  "archived/research.qmd": {
+    "research.html": "282915df"
+  },
+  "archived/projects.qmd": {
+    "projects.html": "af5b5f3f"
   }
 }

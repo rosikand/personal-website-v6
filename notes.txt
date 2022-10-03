@@ -1,0 +1,11 @@
+Below are some notes for myself regarding how to edit this site. It is intended to be a reminder of things just in case I forget sometime down the line. 
+
+Site structure: 
+- Built with quarto, which is based on R Markdown and uses Pandoc 
+- The site is built through .qmd markdown files which lets you write in text and have the generator output the html (much like Jekyll, etc., but in a much less leaky manner). 
+- Themes and other important characteristics are specified in the config file: _quarto.yml. 
+    - Customize styling via theme.scss. 
+- The site can be previewed using `quarto preview`. 
+- When you are ready to publish, specify the output directory in _quarto.yml and run `quarto publish`. The static files will be pushed to this output directory. 
+    - I currently have it set to `/docs`. 
+- For GH pages hosting: just specify the branch and source directoy (which should match with the output directoy specified in the above step). Add the `.nojekyll` file and you are good to go. 

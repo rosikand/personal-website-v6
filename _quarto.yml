@@ -8,14 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - research.qmd
-      - projects.qmd
-      - resume.qmd
-      - writing.qmd
+      - portfolio.qmd
+      - experience.qmd
       - blog.qmd
 
 format:
   html:
-    theme: litera
-    css: styles.css
+    # theme: litera
+    theme: 
+      - flatly
+      - theme.scss
+    # good themes: spacelab, simplex, litera, default, united, flatly
+    # css: styles.css
     toc: true

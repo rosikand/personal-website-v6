@@ -1,7 +1,27 @@
 ---
-title: "Home"
+title: "Rohan Sikand"
+about:
+  template: solana  # note: trestles theme is also nice 
+  image: assets/roclose.jpg
+  image-width: 10em
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/rosikand
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/rosikand
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rosikand/
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+Hey, I'm Rohan! I'm a student at **[The Farm](www.stanford.edu)** studying **Computer Science** with interests in **software development, machine learning, computer systems, and applied mathematics**. This is my personal home page where I keep a **[portfolio](portfolio.qmd)** of my work, among other things (such as a [**blog**](blog.qmd)). Most my work is on my [**Github**](https://github.com/rosikand). In my free time, I enjoy playing golf.
+
+
+### New
+
+- `rsbox`

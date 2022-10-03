@@ -1,7 +1,8 @@
 ---
 title: "Blog"
 listing:
-  type: default
+  type: table
+  table-striped: false
   contents: "posts/*.qmd"
   fields: [date, title, reading-time]
 ---
