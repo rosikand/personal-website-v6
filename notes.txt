@@ -9,3 +9,7 @@ Site structure:
 - When you are ready to publish, specify the output directory in _quarto.yml and run `quarto publish`. The static files will be pushed to this output directory. 
     - I currently have it set to `/docs`. 
 - For GH pages hosting: just specify the branch and source directoy (which should match with the output directoy specified in the above step). Add the `.nojekyll` file and you are good to go. 
+
+
+To-do: 
+- 
