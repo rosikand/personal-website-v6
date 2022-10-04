@@ -1,5 +1,6 @@
 ---
 title: "Portfolio"
+toc: false
 aliases:
   - https://rosikand.github.io/old-websites/portfolio.html
 ---
@@ -7,3 +8,116 @@ aliases:
 > This page contains overviews and links for most of my technical work done over the years. 
 
 It needs to be updated... so for now, visit [https://rosikand.github.io/old-websites/portfolio.html](https://rosikand.github.io/old-websites/portfolio.html). 
+
+
+## 🧪 Research 
+
+
+My research interests include deep learning and its applications to fields such as computer vision and medicine. 
+
+<style>
+/* table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+} */
+
+table {
+  border-collapse: separate; 
+  border-spacing: 0.7em;
+}
+
+.image_column {
+  text-align: center;
+  width: 25%
+}
+
+.content_column {
+  width: 75%
+}
+
+
+td img { 
+  vertical-align: top; 
+}
+
+img {
+  border: 2px solid #555;
+  padding: 2px; 
+  border-radius: 15px;
+}
+
+</style>
+
+<table style="width:100%;">
+
+  <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/reg.png" alt="Photo" width="100" height="100">
+    </td>
+    <td class="content_column">
+      #### **Registration of the T2 and DWI b1200 MRI Sequences of the Prostate**
+      Participated in the Canary CREST research program at Stanford Medicine (Urologic Cancer Innovation Lab). There, I conducted a research project involving the registration of the T2 and DWI b1200 MRI Sequences of the Prostate using classical and deep learning methods. <br> 
+      <b>Skills</b>: PyTorch, computer vision, deformable fields, neural networks, affine transformations
+      <br> 
+      <a href="https://rosikand.github.io/files/canary-paper.pdf" target="_blank">[**paper**]</a> 
+      <a href="https://rosikand.github.io/files/canary-poster.pdf" target="_blank">[**poster**]</a> 
+      <a href="https://github.com/rosikand/canary-crest" target="_blank">[**code**]</a>
+    </td>
+  </tr>
+  <!-- Item end -->
+
+
+   <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/acm.jpeg" alt="Photo" width="100" height="100">
+    </td>
+    <td class="content_column">
+      #### **Stanford ACMLab Projects**
+      Applying ML concepts to projects with peers.
+
+  <ul>
+    <li>
+      "*Team Stanford ACMLab at SemEval 2022 Task 4: Textual Analysis of PCL Using Contextual Word Embeddings*" ([paper](https://aclanthology.org/2022.semeval-1.56/))
+    </li>
+    <li>
+      Developed benchmark tests for large language models: ”**[Logic grid puzzles](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/logic_grid_puzzle)**” RG, WZ, RS, JK, EC, JT (2021). WELM@**ICLR** (Spotlight). 
+      Published in "*Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models*" ([arXiv](https://arxiv.org/abs/2206.04615)). 
+    </li>
+    <li>
+      ”Mapping Income Distribution with Machine Learning” (<a href="https://github.com/rosikand/ACMLab-Project">link</a>).
+    </li>
+  </ul>
+
+  </td>
+  </tr>
+  <!-- Item end -->
+
+
+  <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/sleep.jpeg" alt="photo" width="100" height="100">
+    </td>
+    <td class="content_column">
+      #### **LSTMs and Fully-Connected Dense Neural Networks for speech classification in sleep sounds**
+      During my first year at Stanford, I was a research intern in the Mignot Lab at Stanford School of Medicine. I conducted a project involving the use of sequence-based deep learning architectures, such as Long short-term memory networks, to classify sleep sounds via mel spectogram representations of audio waves.
+      <br> 
+      <b>Skills</b>: Keras, Tensorflow, Librosa, neural networks
+      <br> 
+      <a href="https://github.com/rosikand/mignot-lab-research" target="_blank">[**code**]</a>
+    </td>
+  </tr>
+  <!-- Item end -->
+
+</table>
+	
+--- 
+
+## 🛶 Projects 
+
+Here are some other projects. 
+
+- 🍽 **[torchplate](https://github.com/rosikand/torchplate)**:  A minimal experiment framework for machine learning workflows in PyTorch. 
+

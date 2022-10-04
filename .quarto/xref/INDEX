@@ -64,5 +64,26 @@
   },
   "archived/projects.qmd": {
     "projects.html": "af5b5f3f"
+  },
+  "pages/coursework.md": {
+    "coursework.html": "d578bdcf"
+  },
+  "port.qmd": {
+    "port.html": "3cb567ab"
+  },
+  "zebras/mignot.qmd": {
+    "mignot.html": "298c5a83",
+    "mignot.tex": "8931869c",
+    "mignot.docx": "a747f287"
+  },
+  "zebras/m.qmd": {
+    "m.html": "f691b315",
+    "m.tex": "bd63a943",
+    "m.docx": "5d3782b8"
+  },
+  "zebras/mm.qmd": {
+    "mm.html": "058bb94f",
+    "mm.tex": "6d77d60b",
+    "mm.docx": "7c06d03d"
   }
 }

@@ -1,10 +1,10 @@
 ---
 title: "Blog"
 listing:
-  type: table
+  type: default
   table-striped: false
   contents: "posts/*.qmd"
-  fields: [date, title, reading-time]
+  fields: [date, image, title, reading-time]
 ---
 
 <br>

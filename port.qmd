@@ -1,0 +1,10 @@
+---
+title: "Test grid portfolio"
+listing:
+  type: grid
+  table-striped: true
+  contents: "zebras/*.qmd"
+  fields: [date, title, image]
+---
+
+<br>

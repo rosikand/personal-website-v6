@@ -56,6 +56,34 @@
     "text": "Rendering code\n\ns\n\n\nThis is awspan that has the class aside which places it in the margin without a footnote number.wljekw\nns qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. sqwdl,mqwqwdl,mqw qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk."
   },
   {
+    "objectID": "zebras/mignot.html",
+    "href": "zebras/mignot.html",
+    "title": "Mignot Lab Research",
+    "section": "",
+    "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
+  },
+  {
+    "objectID": "zebras/m.html",
+    "href": "zebras/m.html",
+    "title": "Mignosst Lab Research",
+    "section": "",
+    "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
+  },
+  {
+    "objectID": "zebras/mm.html",
+    "href": "zebras/mm.html",
+    "title": "Mignot Lab Ressearch",
+    "section": "",
+    "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
+  },
+  {
+    "objectID": "port.html",
+    "href": "port.html",
+    "title": "Test grid portfolio",
+    "section": "",
+    "text": "Mignosst Lab Research\n\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMignot Lab Research\n\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMignot Lab Ressearch\n\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Rohan Sikand",
@@ -67,7 +95,7 @@
     "href": "experience.html",
     "title": "Experience",
     "section": "",
-    "text": "B.S. Computer Science • 2020 – 2024 • Stanford, CA\n\nSelected coursework: CS 221 (AI, in progress), CS 330 (Meta Learning, in progress), CS 107 (Computer Systems), ENGR 108 (Matrix Methods), CS 109 (Probability), CS 111 (Operating Systems), CS 279 (Computational Biology), CS 103 (Theory of Computing), Math 51 (Linear Algebra + Multivariable Calculus)"
+    "text": "B.S. Computer Science • 2020 – 2024 • Stanford, CA\n\nSelected coursework: CS 221 (AI, in progress), CS 330 (Meta Learning, in progress), CS 107 (Computer Systems), ENGR 108 (Matrix Methods), CS 109 (Probability), CS 111 (Operating Systems), CS 279 (Computational Biology), CS 103 (Theory of Computing), Math 51 (Linear Algebra + Multivariable Calculus). See here for more."
   },
   {
     "objectID": "experience.html#experience",
@@ -81,7 +109,21 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "It needs to be updated… so for now, visit https://rosikand.github.io/old-websites/portfolio.html."
+    "text": "This page contains overviews and links for most of my technical work done over the years.\nIt needs to be updated… so for now, visit https://rosikand.github.io/old-websites/portfolio.html."
+  },
+  {
+    "objectID": "portfolio.html#research",
+    "href": "portfolio.html#research",
+    "title": "Portfolio",
+    "section": "🧪 Research",
+    "text": "🧪 Research\nMy research interests include deep learning and its applications to fields such as computer vision and medicine.\n\n\n\n\n\n\n\n\n\n\nRegistration of the T2 and DWI b1200 MRI Sequences of the Prostate\nParticipated in the Canary CREST research program at Stanford Medicine (Urologic Cancer Innovation Lab). There, I conducted a research project involving the registration of the T2 and DWI b1200 MRI Sequences of the Prostate using classical and deep learning methods.  Skills: PyTorch, computer vision, deformable fields, neural networks, affine transformations  [paper] [poster] [code]\n\n\n\n\n\n\n\n\n\n\n\nStanford ACMLab Projects\nApplying ML concepts to projects with peers.\n\n\n“Team Stanford ACMLab at SemEval 2022 Task 4: Textual Analysis of PCL Using Contextual Word Embeddings” (paper)\n\n\nDeveloped benchmark tests for large language models: ”Logic grid puzzles” RG, WZ, RS, JK, EC, JT (2021). WELM@ICLR (Spotlight). Published in “Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models” (arXiv).\n\n\n”Mapping Income Distribution with Machine Learning” (link).\n\n\n\n\n\n\n\n\n\n\n\n\n\nLSTMs and Fully-Connected Dense Neural Networks for speech classification in sleep sounds\nDuring my first year at Stanford, I was a research intern in the Mignot Lab at Stanford School of Medicine. I conducted a project involving the use of sequence-based deep learning architectures, such as Long short-term memory networks, to classify sleep sounds via mel spectogram representations of audio waves.  Skills: Keras, Tensorflow, Librosa, neural networks  [code]"
+  },
+  {
+    "objectID": "portfolio.html#projects",
+    "href": "portfolio.html#projects",
+    "title": "Portfolio",
+    "section": "🛶 Projects",
+    "text": "🛶 Projects\nHere are some other projects.\n\n🍽 torchplate: A minimal experiment framework for machine learning workflows in PyTorch."
   },
   {
     "objectID": "archived/research.html",
@@ -119,10 +161,24 @@
     "text": "Project\nIn this section, I give a brief overview of the project I conducted during my time at insitro.\n\nProject title: “Exploring Experimental Machine Learning Strategies for Improving Neuron Segmentation Models”"
   },
   {
+    "objectID": "pages/coursework.html",
+    "href": "pages/coursework.html",
+    "title": "Coursework",
+    "section": "",
+    "text": "CS 111: Operating Systems Principles\nCS 529: Robotics and Autonomous Systems Seminar\nBIO 150: Human Behavioral Biology\nBIOE 131: Ethics in Bionengineering\nEE 292I: Insanely Great Products: How do they get built?\n\n\n\n\n\nCS 109: Introduction to Probability for Computer Scientists\nMath 51: Linear Algebra, Multivariable Calculus, and Modern Applications\nPWR 2SPB: Hope, Health, and Healing: The Rhetoric of Medicine\nCS 22A: The Social & Economic Impact of Artificial Intelligence\n\n\n\n\n\nCS 107: Computer Organization and Systems\nENGR 108: Introduction to Matrix Methods\nCS 279: Computational Biology: Structure and Organization of Biomolecules and Cells\nCS 528: Machine Learning Systems Seminar\nMS&E 472: Entrepreneurial Thought Leaders’ Seminar\nPEDS 220: Covid-19 Elective\n\n\n\n\n\nCS 103: Mathematical Foundations of Computing\nBIOE 70Q: Medical Device Innovation\nECON 23N: Capitalism, Socialism and Democracy\nTHINK 23: The Cancer Problem\nCS 41: Hap.py Code: The Python Programming Language Winter 2021\n\n\n\n\n\nCS 106B: Programming Abstractions\nPWR 1CK: Investigating the News: Journalism, Technology & the Future\nPSYC 199: Undergraduate Research\nMS&E 472: Entrepreneurial Thought Leaders’ Seminar\n\n\n\n\n\nSYMSYS 1: Minds and Machines\nCS 106A: Programming Methodology\nMath 21: Calculus II\nMATSCI 83N: Great Inventions that Matter\nCS 523: Seminar in Artificial Intelligence in Healthcare\nEDUC 157: Election 2020"
+  },
+  {
+    "objectID": "pages/coursework.html#high-school",
+    "href": "pages/coursework.html#high-school",
+    "title": "Coursework",
+    "section": "High School",
+    "text": "High School\nSome relevant coursework from high school:\n\nMultivariable Calculus (12th)\nHonors Computer Science (10th)\nIntroduction to Data Structures and Algorithms (12th)\nAP Computer Science A (11th)\nAP Computer Science Principles (11th)\nAP Calculus (11th)"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading Time\n\n\n\n\n\n\nSep 30, 2022\n\n\nA Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+    "text": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

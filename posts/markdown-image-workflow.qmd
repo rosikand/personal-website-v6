@@ -3,16 +3,11 @@ title: "A Quick Workflow for Incorporating Images into your Markdown Documents u
 date: 9/30/22
 image: http://www.fillmurray.com/460/300
 toc: true
-highlight-style: pygments
+# highlight-style: pygments
 format: 
   html: 
-    code-fold: true
     html-math-method: katex
-  pdf: 
-    geometry: 
-      - top=30mm
-      - left=20mm
-  docx: default
+  pdf: default
 ---
 
 
@@ -33,13 +28,13 @@ In some ways, you'd be done there. But... most figures are quite large and take 
 
 no good! And guess what? There is no standard way to resize images in markdown! So you'd have to specify an HTML element like so:
 
-```
+```txt
 <img src="http://www.fillmurray.com/460/300">
 ```
 
 From here, you could in theory add image alignment and sizing, but this still takes another ~45 seconds:
 
-```
+```txt
 <p align="center">
     <img alt="picture 1" src="http://www.fillmurray.com/460/300" width="350" />  
 </p>
@@ -74,7 +69,7 @@ First of all, this workflow is **powered by**:
 4. (Optional) while you are at it, you can also change the base image width in the extension settings, the code type (I prefer the HTML string over raw Markdown since it renders nicely in Github's web interface), the max image width (I use $300$-$400$). 
 5. (Optional) if you want center-alignment, make a VS Code snippet with the following code:
 
-```
+```txt
 <p align="center">
      
 </p>

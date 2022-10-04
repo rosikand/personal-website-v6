@@ -10,7 +10,7 @@ title: "Experience"
 #### <img src="assets/evergreen.png" height=45em"> Stanford University, 
 [B.S. Computer Science • 2020 – 2024 • Stanford, CA]{style="color: grey;"}
 
-- **Selected coursework**: CS 221 (AI, in progress), CS 330 (Meta Learning, in progress), CS 107 (Computer Systems), ENGR 108 (Matrix Methods), CS 109 (Probability), CS 111 (Operating Systems), CS 279 (Computational Biology), CS 103 (Theory of Computing), Math 51 (Linear Algebra + Multivariable Calculus)
+- **Selected coursework**: CS 221 (AI, in progress), CS 330 (Meta Learning, in progress), CS 107 (Computer Systems), ENGR 108 (Matrix Methods), CS 109 (Probability), CS 111 (Operating Systems), CS 279 (Computational Biology), CS 103 (Theory of Computing), Math 51 (Linear Algebra + Multivariable Calculus). See [here](pages/coursework.md) for more. 
 
 ## Experience 
 
