@@ -1,13 +1,13 @@
 ---
 title: "Portfolio"
-toc: false
+toc: true
 aliases:
   - https://rosikand.github.io/old-websites/portfolio.html
 ---
 
-> This page contains overviews and links for most of my technical work done over the years. 
-
-It needs to be updated... so for now, visit [https://rosikand.github.io/old-websites/portfolio.html](https://rosikand.github.io/old-websites/portfolio.html). 
+<!-- > This page contains overviews and links for most of my technical work done over the years. 
+  -->
+<!-- This page is a work-in-progress! For now, visit [https://rosikand.github.io/old-websites/portfolio.html](https://rosikand.github.io/old-websites/portfolio.html).  -->
 
 
 ## 🧪 Research 
@@ -35,6 +35,9 @@ table {
   width: 75%
 }
 
+.full_width_column {
+  width: 100%
+}
 
 td img { 
   vertical-align: top; 
@@ -49,6 +52,20 @@ img {
 </style>
 
 <table style="width:100%;">
+
+  <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/insitro-logo-file.png" alt="Photo" width="100" height="100">
+    </td>
+    <td class="content_column">
+      #### **Exploring Experimental Machine Learning Strategies for Improving Neuron Segmentation Models**
+     [insitro internship](pages/insitro.html) project: Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc. Gained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.
+     <br>
+    <b>Skills</b>: PyTorch, Jax, computer vision, neural networks, Hugging Face, albumentations, AWS Batch and EC2, Weights and Biases 
+    </td>
+  </tr>
+  <!-- Item end -->
 
   <!-- Item begin -->
   <tr>
@@ -117,7 +134,93 @@ img {
 
 ## 🛶 Projects 
 
+<!-- Here are some other projects.  -->
+<!-- 
+- 🍽 **[torchplate](https://github.com/rosikand/torchplate)**:  A minimal experiment framework for machine learning workflows in PyTorch. 
+ -->
+
+
+<!-- ------------------------------------------------- -->
+
+<table style="width:100%;">
+
+ <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/torchplate2.jpeg" alt="Photo" width="75" height="75">
+    </td>
+    <td class="content_column">
+      #### **[Torchplate](https://github.com/rosikand/torchplate)**
+      A minimal experiment framework and boilerplate for machine learning workflows in PyTorch. Provide `evaluate()` and a few other ML experiment specific things and train (`exp.train(num_epochs=100)`) away! 
+      <br> Installation: `$ pip install torchplate`.
+ 
+    </td>
+  </tr>
+  <!-- Item end -->
+
+   <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/rsbox.png" alt="Photo" width="75" height="75">
+    </td>
+    <td class="content_column">
+      #### **[rsbox](https://github.com/rosikand/rsbox)**
+      An open source toolbox of utility functions for common workflows I use in Python (mostly machine learning things).  
+      Installation: `$ pip install rsbox`.
+ 
+    </td>
+  </tr>
+  <!-- Item end -->
+
+  <!-- Item begin -->
+  <tr>
+    <td class="image_column">
+      <img src="assets/lemnos.png" alt="Photo" width="75" height="75">
+    </td>
+    <td class="content_column">
+      #### **[Lemnos](https://github.com/rosikand/lemnos)**
+      An open source light-weight command-line to-do list manager built with Python. 
+    </td>
+  </tr>
+  <!-- Item end -->
+
+
+
+  <!-- ------------------------------------------------- -->
+
+ 
+  <!-- no image block -->
+  <!-- Item begin -->
+  <!-- <tr>
+    <td class="full_width_column">
+      #### **🍎 Registration of the T2 and DWI b1200 MRI Sequences of the Prostate**
+      Participated in the Canary CREST research program at Stanford Medicine (Urologic Cancer Innovation
+    </td>
+  </tr> -->
+  <!-- Item end -->
+
+</table>
+
+
 Here are some other projects. 
 
-- 🍽 **[torchplate](https://github.com/rosikand/torchplate)**:  A minimal experiment framework for machine learning workflows in PyTorch. 
 
+- 🌀 **Probabilistic Methods for Diagnosing Parkinson’s Disease in Hand-Drawn Spirals**: Modeled curvature in hand-drawn spirals as Gaussian distributions for inference: a heuristic for diagnosing Parkinson’s disease (CS 109 challenge winner, 1/239).
+- 🧫 **[CS 279 Project](https://github.com/rosikand/CS279-project)**: Deep Learning for Classifying Subcellular Patterns of Proteins in Microscopic Images. 
+- 🚂 [**`easyset`**](https://github.com/rosikand/easyset): Easy-to-use, small, pre-processed datasets in Python for machine learning (work-in-progress). 
+- 🪃 [**`markdown2laTeX`**](https://github.com/rosikand/markdown2latex): Program that produces a LaTeX output based on markdown source as input.  
+
+<br>
+--- 
+
+## 📝 Writing and Exposition 
+
+I like to take long and short form notes on concepts that I am learning about. 
+
+
+- 🔌 [**snippets**](https://rosikand.github.io/snippets/): Toolbox of short, reusable pieces of code and knowledge. 
+- 📋 [**PyTorch reference document**](https://rosikand.github.io/old-websites/writing/pytorch/) 
+- 🙋‍♂️ [**Deep Learning Presentation**](https://rosikand.github.io/old-websites/files/mc-dl-presentation.pdf): talk I gave back in high school for my multivariable calculus class. 
+
+
+Stanford course notes coming soon! (see some old ones [here](https://rosikand.github.io/notes/)!)

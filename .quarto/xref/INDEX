@@ -85,5 +85,10 @@
     "mm.html": "058bb94f",
     "mm.tex": "6d77d60b",
     "mm.docx": "7c06d03d"
+  },
+  "pages/document.qmd": {
+    "document.html": "0ecb3f9e",
+    "document.tex": "1e33e615",
+    "document.docx": "8eefddb7"
   }
 }

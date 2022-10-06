@@ -88,7 +88,7 @@
     "href": "index.html",
     "title": "Rohan Sikand",
     "section": "",
-    "text": "New\n\nrsbox"
+    "text": "Hey, I’m Rohan! I’m a student at The Farm studying Computer Science with interests in software development, machine learning, computer systems, and applied mathematics. This is my personal home page where I keep a portfolio of my work, among other things (such as a blog). Most my work is on my Github. In my free time, I enjoy playing golf."
   },
   {
     "objectID": "experience.html",
@@ -109,21 +109,21 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "This page contains overviews and links for most of my technical work done over the years.\nIt needs to be updated… so for now, visit https://rosikand.github.io/old-websites/portfolio.html."
-  },
-  {
-    "objectID": "portfolio.html#research",
-    "href": "portfolio.html#research",
-    "title": "Portfolio",
-    "section": "🧪 Research",
-    "text": "🧪 Research\nMy research interests include deep learning and its applications to fields such as computer vision and medicine.\n\n\n\n\n\n\n\n\n\n\nRegistration of the T2 and DWI b1200 MRI Sequences of the Prostate\nParticipated in the Canary CREST research program at Stanford Medicine (Urologic Cancer Innovation Lab). There, I conducted a research project involving the registration of the T2 and DWI b1200 MRI Sequences of the Prostate using classical and deep learning methods.  Skills: PyTorch, computer vision, deformable fields, neural networks, affine transformations  [paper] [poster] [code]\n\n\n\n\n\n\n\n\n\n\n\nStanford ACMLab Projects\nApplying ML concepts to projects with peers.\n\n\n“Team Stanford ACMLab at SemEval 2022 Task 4: Textual Analysis of PCL Using Contextual Word Embeddings” (paper)\n\n\nDeveloped benchmark tests for large language models: ”Logic grid puzzles” RG, WZ, RS, JK, EC, JT (2021). WELM@ICLR (Spotlight). Published in “Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models” (arXiv).\n\n\n”Mapping Income Distribution with Machine Learning” (link).\n\n\n\n\n\n\n\n\n\n\n\n\n\nLSTMs and Fully-Connected Dense Neural Networks for speech classification in sleep sounds\nDuring my first year at Stanford, I was a research intern in the Mignot Lab at Stanford School of Medicine. I conducted a project involving the use of sequence-based deep learning architectures, such as Long short-term memory networks, to classify sleep sounds via mel spectogram representations of audio waves.  Skills: Keras, Tensorflow, Librosa, neural networks  [code]"
+    "text": "My research interests include deep learning and its applications to fields such as computer vision and medicine.\n\n\n\n\n\n\n\n\n\n\n\ninsitro internship project: Conducted cross-disciplinary neuron segmentation project using machine learning for the purposes of flourescent phenotyping and disease modeling. Deployed models with an API. Used ViT, DINO, Segformer, DeepLabV3, etc. Gained experience working with industry tools such as Amazon AWS EC2 & Batch, Weights & Biases.  Skills: PyTorch, Jax, computer vision, neural networks, Hugging Face, albumentations, AWS Batch and EC2, Weights and Biases\n\n\n\n\n\n\n\n\n\n\n\n\nParticipated in the Canary CREST research program at Stanford Medicine (Urologic Cancer Innovation Lab). There, I conducted a research project involving the registration of the T2 and DWI b1200 MRI Sequences of the Prostate using classical and deep learning methods.  Skills: PyTorch, computer vision, deformable fields, neural networks, affine transformations  [paper] [poster] [code]\n\n\n\n\n\n\n\n\n\n\n\n\nApplying ML concepts to projects with peers.\n\n\n“Team Stanford ACMLab at SemEval 2022 Task 4: Textual Analysis of PCL Using Contextual Word Embeddings” (paper)\n\n\nDeveloped benchmark tests for large language models: ”Logic grid puzzles” RG, WZ, RS, JK, EC, JT (2021). WELM@ICLR (Spotlight). Published in “Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models” (arXiv).\n\n\n”Mapping Income Distribution with Machine Learning” (link).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDuring my first year at Stanford, I was a research intern in the Mignot Lab at Stanford School of Medicine. I conducted a project involving the use of sequence-based deep learning architectures, such as Long short-term memory networks, to classify sleep sounds via mel spectogram representations of audio waves.  Skills: Keras, Tensorflow, Librosa, neural networks  [code]"
   },
   {
     "objectID": "portfolio.html#projects",
     "href": "portfolio.html#projects",
     "title": "Portfolio",
     "section": "🛶 Projects",
-    "text": "🛶 Projects\nHere are some other projects.\n\n🍽 torchplate: A minimal experiment framework for machine learning workflows in PyTorch."
+    "text": "🛶 Projects\n\n\n\n\n   \n\n\n\n\n\n\n\nTorchplate\nA minimal experiment framework and boilerplate for machine learning workflows in PyTorch. Provide evaluate() and a few other ML experiment specific things and train (exp.train(num_epochs=100)) away!  Installation: $ pip install torchplate.\n\n\n\n\n\n\n\n\n\n\n\nrsbox\nAn open source toolbox of utility functions for common workflows I use in Python (mostly machine learning things).\nInstallation: $ pip install rsbox.\n\n\n\n\n\n\n\n\n\n\n\nLemnos\nAn open source light-weight command-line to-do list manager built with Python.\n\n\n\n\n\n\n\nHere are some other projects.\n\n🌀 Probabilistic Methods for Diagnosing Parkinson’s Disease in Hand-Drawn Spirals: Modeled curvature in hand-drawn spirals as Gaussian distributions for inference: a heuristic for diagnosing Parkinson’s disease (CS 109 challenge winner, 1/239).\n🧫 CS 279 Project: Deep Learning for Classifying Subcellular Patterns of Proteins in Microscopic Images.\n🚂 easyset: Easy-to-use, small, pre-processed datasets in Python for machine learning (work-in-progress).\n🪃 markdown2laTeX: Program that produces a LaTeX output based on markdown source as input."
+  },
+  {
+    "objectID": "portfolio.html#writing-and-exposition",
+    "href": "portfolio.html#writing-and-exposition",
+    "title": "Portfolio",
+    "section": "📝 Writing and Exposition",
+    "text": "📝 Writing and Exposition\nI like to take long and short form notes on concepts that I am learning about.\n\n🔌 snippets: Toolbox of short, reusable pieces of code and knowledge.\n📋 PyTorch reference document\n🙋‍♂️ Deep Learning Presentation: talk I gave back in high school for my multivariable calculus class.\n\nStanford course notes coming soon! (see some old ones here!)"
   },
   {
     "objectID": "archived/research.html",
@@ -138,6 +138,55 @@
     "title": "Projects",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "pages/document.html",
+    "href": "pages/document.html",
+    "title": "A Sample Quarto Document",
+    "section": "",
+    "text": "The following is a sample Quarto document which highlights several autoring features. This page was mainly created for my own reference. I use a recent lecture note as a base to edit off of."
+  },
+  {
+    "objectID": "pages/document.html#cool-features",
+    "href": "pages/document.html#cool-features",
+    "title": "A Sample Quarto Document",
+    "section": "Cool features",
+    "text": "Cool features\n(Test)… here is a theorem:\n\n\n\n\n\n\n\nTheorem 1 (Line) The equation of any straight line, called a linear equation, can be written as:\n\\[\ny = mx + b\n\\]"
+  },
+  {
+    "objectID": "pages/document.html#topics",
+    "href": "pages/document.html#topics",
+    "title": "A Sample Quarto Document",
+    "section": "Topics",
+    "text": "Topics\n\nModern DL methods for learning across tasks\nImplementing these methods (MT, TL) in PyTorch\nGlimpse of building new algorithms\n\nlow-level descriptions:\n\nMT, TL\nMeta learning algos\nAdvanced meta learning topics\nUnsupervised pre-training\n\nFS learning\n\nDomain adaption\nLifelong learning\nOpen problems\n\nFocus on DL, with case studies in things like NLP. - No RL! (see CS 224R)"
+  },
+  {
+    "objectID": "pages/document.html#logistics",
+    "href": "pages/document.html#logistics",
+    "title": "A Sample Quarto Document",
+    "section": "1. Logistics",
+    "text": "1. Logistics\n\nLectures are live-streamed and recorded\ntwo guest lectures\nPrereqs:\n\nSufficient background in ML (229)\n\n\n\nHomeworks\n50% of grade.\n\n0: multi-task basics\n1: multi-task data processing and BB-ML\n2: gradient-based ML\n3: fine-tuning pre-trained language models\n4 (optional): Bayesian ML and meta overfitting\n\nReplace 15% of hw/project\nNot coding, all math\n\n6 late days\n\n\n\nProject\nHere is a footnote reference,1 and another.2\nThis paragraph won’t be part of the note, because it isn’t indented.\nHere is a bib citation. Blah Blah [see @knuth1984, pp. 33-35; also @wickham2015, chap. 1]\n\nPoster session, 50% of grade.\nIdea: …\n\nNow technical content…"
+  },
+  {
+    "objectID": "pages/document.html#why-study-multi-task-learning-and-meta-learning",
+    "href": "pages/document.html#why-study-multi-task-learning-and-meta-learning",
+    "title": "A Sample Quarto Document",
+    "section": "2. Why study multi-task learning and meta-learning?",
+    "text": "2. Why study multi-task learning and meta-learning?\n\nHow can we enable agents to learn a breadth of skills in the real world?\n\nBecause each time we have to train a supervised signal\n\nSo the goal is to learn representations across tasks\n\n\nAside (common paradigm to learn representations): initialize well (not randomly) –> fine-tune on new task.\n\nThis is harder for RL than NLP because NLP has the entire wikipedia to use but robotic common sense representations are not as straightforward (maybe we need a common robot embedding?)\n\n\nEvolution:\n\nEarly in CV: hand-design features, train SVM on-top\nModern CV: end-to-end training, no hand-engineering\n\nAllows us to handle unstructured inputs without understanding it\n\nNow why meta-learning? Three reasons…\n\nDon’t have large dataset at the outset to pre-train on or use in end-to-end SL manner (med imaging, robotics, etc.)\n\nEven more so: long-tail data samples (e.g., self-driving won’t catch all edge cases)\n\nMEL techniques can help with this (kinda… not the main focus tho)\n\n\nQuickly learn something new (few-shot learning)\n\nLots of open problems"
+  },
+  {
+    "objectID": "pages/document.html#multi-task-intro",
+    "href": "pages/document.html#multi-task-intro",
+    "title": "A Sample Quarto Document",
+    "section": "Multi-task intro",
+    "text": "Multi-task intro\nSome code block:\nprint(5)\n\nWhat is a \\(t\\) task? See Theorem 1.\n\nDataset + loss objective –> model\nObjects as “tasks”\nCritical assumption: different tasks need to share some base structure (goal is to exploit shared structure)\n\nBut lots of tasks share structure (even as upstream as sharing the laws of physics!)\nQuestion: can we learn a shared embedding space for e.g., text + images in one?\n\n\nDoes MT learning reduce to single-task SL learning?\n\nSomewhat (tho not for every problem)\nIdea: sum loss and data:\n\n\n\\[\n\\mathcal{D}=\\bigcup \\mathcal{D}_i \\quad \\mathcal{L}=\\sum \\mathcal{L}_i\n\\]\nNext up: a technical dive into the multi-task learning framework."
+  },
+  {
+    "objectID": "pages/document.html#acknowledgments",
+    "href": "pages/document.html#acknowledgments",
+    "title": "A Sample Quarto Document",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\nI am grateful for the insightful comments offered by the anonymous peer reviewers at Books & Texts. The generosity and expertise of one and all have improved this study in innumerable ways and saved me from many errors; those that inevitably remain are entirely my own responsibility."
   },
   {
     "objectID": "pages/insitro.html",

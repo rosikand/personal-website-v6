@@ -5,6 +5,7 @@ project:
 website:
   title: "Rohan's Webpage"
   navbar:
+    background: "#102c3c"
     left:
       - href: index.qmd
         text: Home
@@ -16,7 +17,7 @@ format:
   html:
     # theme: litera
     theme: 
-      - flatly
+      - cosmo
       - theme.scss
     # good themes: spacelab, simplex, litera, default, united, flatly
     # css: styles.css
