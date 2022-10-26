@@ -1,15 +1,15 @@
 ---
-title: "Mignosst Lab Research"
+title: "Even more text"
 date: 9/30/22
-image: http://www.fillmurray.com/460/300
+image: https://149427467.v2.pressablecdn.com/wp-content/uploads/2013/03/image-alignment-150x150-1.jpg
 toc: true
 highlight-style: pygments
+categories: [writing]
 format: 
   html: 
     code-fold: true
     html-math-method: katex
-  pdf: default
-  docx: default
+    title-block-categories: true
 ---
 
 

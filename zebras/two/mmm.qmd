@@ -1,19 +1,15 @@
 ---
-title: "Mignot Lab Research"
+title: "Even more text"
 date: 9/30/22
-image: http://www.fillmurray.com/460/300
+image: https://149427467.v2.pressablecdn.com/wp-content/uploads/2013/03/image-alignment-150x150-1.jpg
 toc: true
 highlight-style: pygments
+categories: [research]
 format: 
   html: 
     code-fold: true
     html-math-method: katex
-  pdf: 
-    geometry: 
-      - top=30mm
-      - left=20mm
-  docx: default
+    title-block-categories: true
 ---
-
 
 For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don't think I can find a *perfect* solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to [castel.dev](castel.dev)), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class). 

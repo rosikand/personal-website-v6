@@ -2,9 +2,9 @@
   {
     "listing": "/port.html",
     "items": [
-      "/zebras/m.html",
-      "/zebras/mignot.html",
-      "/zebras/mm.html"
+      "/zebras/one/m.html",
+      "/zebras/one/mm.html",
+      "/zebras/two/mmm.html"
     ]
   },
   {

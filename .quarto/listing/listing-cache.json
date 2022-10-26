@@ -1,7 +1,8 @@
 {
   "listingMap": {
     "port.qmd": [
-      "zebras/*.qmd"
+      "zebras/one/*.qmd",
+      "zebras/two/*.qmd"
     ],
     "blog.qmd": [
       "posts/*.qmd"

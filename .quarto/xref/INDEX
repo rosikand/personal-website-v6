@@ -90,5 +90,14 @@
     "document.html": "0ecb3f9e",
     "document.tex": "1e33e615",
     "document.docx": "8eefddb7"
+  },
+  "zebras/one/mm.qmd": {
+    "mm.html": "52019051"
+  },
+  "zebras/two/mmm.qmd": {
+    "mmm.html": "9c386678"
+  },
+  "zebras/one/m.qmd": {
+    "m.html": "34be86ba"
   }
 }

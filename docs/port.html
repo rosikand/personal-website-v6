@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Rohan’s Webpage - Test grid portfolio</title>
+<title>Rohan’s Webpage - Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,20 +63,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-lab-reports .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-lab-reports'] = new List('listing-lab-reports', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-meeting-notes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-meeting-notes'] = new List('listing-meeting-notes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,14 +161,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">🧪 Research</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">🛶 projects</a></li>
+  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">📝 Writing</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Test grid portfolio</h1>
+<h1 class="title">Portfolio</h1>
 </div>
 
 
@@ -154,75 +190,139 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><br></p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1664521200000" data-listing-file-modified-sort="1664864283770" data-listing-reading-time-sort="0.56">
-<a href="./zebras/m.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="http://www.fillmurray.com/460/300" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mignosst Lab Research
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 30, 2022
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">🧪 Research</h2>
+<div id="listing-lab-reports" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="project" data-listing-date-sort="1664521200000" data-listing-file-modified-sort="1666743334521" data-listing-reading-time-sort="0.56">
+<div class="thumbnail">
+<p><a href="./zebras/one/m.html"> <img src="https://149427467.v2.pressablecdn.com/wp-content/uploads/2013/03/image-alignment-150x150-1.jpg" class="thumnail-image"> </a></p>
 </div>
-</div>
-</div>
+<div class="body">
+<a href="./zebras/one/m.html">
+<h3 class="no-anchor listing-title">
+Even more text
+</h3>
+<div class="listing-subtitle">
+
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1664521200000" data-listing-file-modified-sort="1664864101021" data-listing-reading-time-sort="0.56">
-<a href="./zebras/mignot.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="http://www.fillmurray.com/460/300" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mignot Lab Research
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 30, 2022
+<div class="metadata">
+<a href="./zebras/one/m.html"> </a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="1" data-categories="writing" data-listing-date-sort="1664521200000" data-listing-file-modified-sort="1666742648524" data-listing-reading-time-sort="0.56">
+<div class="thumbnail">
+<p><a href="./zebras/one/mm.html"> <img src="https://149427467.v2.pressablecdn.com/wp-content/uploads/2013/03/image-alignment-150x150-1.jpg" class="thumnail-image"> </a></p>
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1664521200000" data-listing-file-modified-sort="1664864200885" data-listing-reading-time-sort="0.56">
-<a href="./zebras/mm.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="http://www.fillmurray.com/460/300" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mignot Lab Ressearch
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 30, 2022
-</div>
-</div>
-</div>
+<div class="body">
+<a href="./zebras/one/mm.html">
+<h3 class="no-anchor listing-title">
+Even more text
+</h3>
+<div class="listing-subtitle">
+
 </div>
 </a>
+</div>
+<div class="metadata">
+<a href="./zebras/one/mm.html"> </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">🛶 projects</h2>
+<div id="listing-meeting-notes" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-meeting-notes-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-meeting-notes'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="research" data-listing-date-sort="1664521200000" data-listing-file-modified-sort="1666742660453" data-listing-reading-time-sort="0.56" data-listing-title-sort="Even more text" data-listing-filename-sort="mmm.qmd">
+<td class="listing-date">
+Sep 30, 2022
+</td>
+<td class="listing-title">
+<a href="./zebras/two/mmm.html" class="title">Even more text</a>
+</td>
+<td class="listing-author">
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="writing" class="level2">
+<h2 class="anchored" data-anchor-id="writing">📝 Writing</h2>
+<div id="meeting-notes">
+
+</div>
+<hr>
+<p>You can also view some more (older) projects here.</p>
+
+<!-- ---
+title: "Test grid portfolio"
+listing:
+  # type: table
+  table-striped: true
+  contents: "zebras/*.qmd"
+  categories: true
+  fields: [date, title, image, categories]
+--- -->
+<!-- Playing around with multiple listings for my portfolio -->
+<!-- <br> -->
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

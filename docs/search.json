@@ -56,32 +56,46 @@
     "text": "Rendering code\n\ns\n\n\nThis is awspan that has the class aside which places it in the margin without a footnote number.wljekw\nns qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. sqwdl,mqwqwdl,mqw qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk."
   },
   {
-    "objectID": "zebras/mignot.html",
-    "href": "zebras/mignot.html",
-    "title": "Mignot Lab Research",
+    "objectID": "zebras/one/m.html",
+    "href": "zebras/one/m.html",
+    "title": "Even more text",
     "section": "",
     "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
   },
   {
-    "objectID": "zebras/m.html",
-    "href": "zebras/m.html",
-    "title": "Mignosst Lab Research",
+    "objectID": "zebras/one/mm.html",
+    "href": "zebras/one/mm.html",
+    "title": "Even more text",
     "section": "",
     "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
   },
   {
-    "objectID": "zebras/mm.html",
-    "href": "zebras/mm.html",
-    "title": "Mignot Lab Ressearch",
+    "objectID": "zebras/two/mmm.html",
+    "href": "zebras/two/mmm.html",
+    "title": "Even more text",
     "section": "",
     "text": "For the past year and a half, I have been experimenting with my digital note-taking setup, ranging from live typesetting LaTeX to Apple Notes. I don’t think I can find a perfect solution that meets all my needs. But I think we can get close. I plan to make a bigger post describing my setup in more detail (in a similar fashion to castel.dev), but one of the main components is what we discuss here: how to use VS Code to incorporate images into your Markdown documents. We use Markdown because it supports things like embedded LaTeX math and code fences (such features are pivotal when taking technical notes during class)."
   },
   {
     "objectID": "port.html",
     "href": "port.html",
-    "title": "Test grid portfolio",
+    "title": "Portfolio",
     "section": "",
-    "text": "Mignosst Lab Research\n\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMignot Lab Research\n\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMignot Lab Ressearch\n\n\n\nSep 30, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
+  },
+  {
+    "objectID": "port.html#projects",
+    "href": "port.html#projects",
+    "title": "Portfolio",
+    "section": "🛶 projects",
+    "text": "🛶 projects\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nSep 30, 2022\n\n\nEven more text\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "port.html#writing",
+    "href": "port.html#writing",
+    "title": "Portfolio",
+    "section": "📝 Writing",
+    "text": "📝 Writing\n\n\n\n\nYou can also view some more (older) projects here."
   },
   {
     "objectID": "index.html",

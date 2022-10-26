@@ -12,4 +12,8 @@ Site structure:
 
 
 To-do: 
-- 
+- ... 
+
+Inspiration: 
+- Blog post explaining how to make custom listings: https://robertmitchellv.com/blog/2022-08-building-with-quarto/building-with-quarto.html#motivation-and-thoughts
+    - I think this can be good for making a portfolio page (i.e., separate categories into multiple listings on the same page... have category for "research", "writing", etc.) and have some recent items appear on home page. 

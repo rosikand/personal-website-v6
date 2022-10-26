@@ -1,10 +1,45 @@
 ---
-title: "Test grid portfolio"
-listing:
-  type: grid
-  table-striped: true
-  contents: "zebras/*.qmd"
-  fields: [date, title, image]
+title: Portfolio
+listing: 
+  - id: lab-reports
+    contents: "zebras/one/*.qmd"
+    type: default
+    fields: [title, image]
+  - id: meeting-notes
+    contents: "zebras/two/*.qmd"
+    type: table
 ---
 
-<br>
+## 🧪 Research
+
+:::{#lab-reports}
+:::
+
+## 🛶 projects
+
+:::{#meeting-notes}
+:::
+
+
+## 📝 Writing
+
+:::{#meeting-notes}
+:::
+
+--- 
+
+You can also view some more (older) projects here. 
+
+<!-- ---
+title: "Test grid portfolio"
+listing:
+  # type: table
+  table-striped: true
+  contents: "zebras/*.qmd"
+  categories: true
+  fields: [date, title, image, categories]
+--- -->
+
+<!-- Playing around with multiple listings for my portfolio -->
+
+<!-- <br> -->
