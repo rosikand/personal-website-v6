@@ -99,5 +99,9 @@
   },
   "zebras/one/m.qmd": {
     "m.html": "34be86ba"
+  },
+  "posts/functorch-example.qmd": {
+    "functorch-example.html": "ff17e1d3",
+    "functorch-example.tex": "e93b6cd1"
   }
 }

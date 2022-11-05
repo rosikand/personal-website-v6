@@ -5,7 +5,7 @@ date: 9/30/22
 image: http://www.fillmurray.com/460/300
 title-block-banner: true
 toc: true
-# highlight-style: pygments
+highlight-style: pygments
 format: 
   html: 
     html-math-method: katex
