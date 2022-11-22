@@ -2,8 +2,8 @@
 title: "A Simple functorch Example"
 date: 11/5/22
 image: https://cdn.jsdelivr.net/gh/minimatest/vscode-images/images/f641e27ff96ea446beba4eff31c540f98651f19b31a237f96b71d9196d3a2f53.png
-title-block-banner: true
-toc: true
+# title-block-banner: true
+# toc: true
 # highlight-style: pygments
 format: 
   html: 
