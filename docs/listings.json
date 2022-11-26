@@ -10,8 +10,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/markdown-image-workflow.html",
-      "/posts/functorch-example.html"
+      "/blog/markdown-image-workflow.html",
+      "/blog/functorch-example.html"
     ]
   }
 ]

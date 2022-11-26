@@ -5,7 +5,7 @@
       "zebras/two/*.qmd"
     ],
     "blog.qmd": [
-      "posts/*.qmd"
+      "blog/*.qmd"
     ]
   }
 }

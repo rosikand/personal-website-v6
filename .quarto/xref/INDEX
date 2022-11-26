@@ -103,5 +103,18 @@
   "posts/functorch-example.qmd": {
     "functorch-example.html": "ff17e1d3",
     "functorch-example.tex": "e93b6cd1"
+  },
+  "blog/markdown-image-workflow.qmd": {
+    "markdown-image-workflow.html": "4516ade5",
+    "markdown-image-workflow.tex": "b8ceba5d"
+  },
+  "blog/functorch-example.qmd": {
+    "functorch-example.html": "55e4f437",
+    "functorch-example.tex": "ecd80599"
+  },
+  "blog/archived/wow.qmd": {
+    "wow.html": "adce9802",
+    "wow.tex": "a50604cd",
+    "wow.docx": "112379e6"
   }
 }

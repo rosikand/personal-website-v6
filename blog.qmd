@@ -3,7 +3,7 @@ title: "Blog"
 listing:
   type: default
   table-striped: false
-  contents: "posts/*.qmd"
+  contents: "blog/*.qmd"
   fields: [date, image, title, reading-time]
 ---
 
