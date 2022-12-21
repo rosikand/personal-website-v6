@@ -3,6 +3,7 @@ title: "Portfolio"
 toc: true
 aliases:
   - https://rosikand.github.io/old-websites/portfolio.html
+# fontsize: "12pt"
 ---
 
 <!-- > This page contains overviews and links for most of my technical work done over the years. 

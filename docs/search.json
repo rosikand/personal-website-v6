@@ -126,6 +126,13 @@
     "text": "Rendering code\n\ns\n\n\nThis is awspan that has the class aside which places it in the margin without a footnote number.wljekw\nns qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. sqwdl,mqwqwdl,mqw qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk. s qmnmwne,mqw qwkjdklqwkdqk."
   },
   {
+    "objectID": "blog/ai-for-climate-change.html",
+    "href": "blog/ai-for-climate-change.html",
+    "title": "Applications of AI for Climate Change",
+    "section": "",
+    "text": "Name\nTL;DR Description\nLinks\n\n\n\n\nSeagrass Monitoring\nMeasure and monitor biomass on seabeds remotely. Hydrography.\n[1]\n\n\nUnited Nations Sustainable Development Goals\n17 goals provided by the United Nations for sustainable development. There exists many potential applications of AI for some of the goals.\n[1]\n\n\n\nShort list:\n\nhttps://www.drivendata.org/competitions/143/tick-tick-bloom/\nhttps://www.drivendata.org/competitions/99/biomass-estimation/\nhttps://www.drivendata.org/competitions/group/competition-reclamation-snow-water/\nhttps://www.drivendata.org/competitions/81/detect-flood-water/\nhttps://www.drivendata.org/competitions/83/cloud-cover/\nhttps://sustainlab-group.github.io/sustainbench/about/"
+  },
+  {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
     "title": "Portfolio",
@@ -249,6 +256,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nA Simple functorch Example\n\n\n\n\n\n\n\n\n\nNov 5, 2022\n\n\n6 min\n\n\n\n\n\n\nNo matching items"
+    "text": "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code\n\n\n\n\n\n\n\n\n\nSep 30, 2022\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nA Simple functorch Example\n\n\n\n\n\n\n\n\n\nNov 5, 2022\n\n\n6 min\n\n\n\n\n\n\n  \n\n\n\n\nApplications of AI for Climate Change\n\n\n\n\n\n\n\n\n\nDec 18, 2022\n\n\n0 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -2,9 +2,13 @@
 title: "Blog"
 listing:
   type: default
+  sort: "date"
   table-striped: false
   contents: "blog/*.qmd"
   fields: [date, image, title, reading-time]
 ---
 
-<br>
+
+<!-- These posts are permanently cross-posted to [here](https://rosikand.github.io/posts/). -->
+
+<br> 

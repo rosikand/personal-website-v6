@@ -2,7 +2,7 @@
 title: "A Quick Workflow for Incorporating Images into your Markdown Documents using VS Code"
 date: 9/30/22
 # author: Rohan Sikand
-image: http://www.fillmurray.com/460/300
+image: https://cdn.jsdelivr.net/gh/minimatest/vscode-images@main/images/df09570a82b5b38719bcd640160737188b68838cd0835de23220420c7633db64.png
 title-block-banner: true
 toc: true
 highlight-style: pygments

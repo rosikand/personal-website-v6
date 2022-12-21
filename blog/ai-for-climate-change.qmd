@@ -1,0 +1,32 @@
+---
+title: "Applications of AI for Climate Change"
+date: 12/18/22
+image: https://cdn.jsdelivr.net/gh/minimatest/vscode-images@main/images/b79be7c81c620670da5451df3aa6dac0cdd1fe14684274bc5989652ea379197c.png
+# title-block-banner: true
+# toc: true
+# highlight-style: pygments
+format: 
+  html: default
+  pdf: default
+---
+
+
+This will be an ongoing document enumerating the applications of AI for climate change. 
+
+
+Name | TL;DR Description | Links | 
+| --- | --- | --- |
+| **Seagrass Monitoring** | Measure and monitor biomass on seabeds remotely. Hydrography. | [[1]](https://www.hydro-international.com/content/article/enhanced-solutions-for-seagrass-monitoring) |
+| **United Nations Sustainable Development Goals** | 17 goals provided by the United Nations for sustainable development. There exists many potential applications of AI for some of the goals. | [[1]](https://sdgs.un.org/goals) |
+
+
+
+
+Short list: 
+
+- https://www.drivendata.org/competitions/143/tick-tick-bloom/
+- https://www.drivendata.org/competitions/99/biomass-estimation/
+- https://www.drivendata.org/competitions/group/competition-reclamation-snow-water/
+- https://www.drivendata.org/competitions/81/detect-flood-water/
+- https://www.drivendata.org/competitions/83/cloud-cover/
+- https://sustainlab-group.github.io/sustainbench/about/
