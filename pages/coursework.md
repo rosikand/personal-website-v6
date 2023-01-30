@@ -5,11 +5,20 @@ toc: false
 
 ## Stanford University (B.S., Computer Science)
 
+#### Autumn 2022 (Sophomore)
+
+- INTLPOL 268: Hack Lab: Introduction to Cybersecurity
+- CS 221: Artificial Intelligence: Principles and Techniques
+- CS 330: Deep Multi-task and Meta Learning
+- BIO 3: Frontiers in Marine Biology
+- PEDS 220: Covid-19 Elective
+- CS 64: Computation for Puzzles and Games
+
 #### Spring 2022 (Sophomore)
 - CS 111: Operating Systems Principles 
 - CS 529: Robotics and Autonomous Systems Seminar 
 - BIO 150: Human Behavioral Biology 
-- BIOE 131: Ethics in Bionengineering 
+- BIOE 131: Ethics in Bioengineering 
 - EE 292I: Insanely Great Products: How do they get built?
 
 #### Winter 2022 (Sophomore)
