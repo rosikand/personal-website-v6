@@ -5,8 +5,8 @@ project:
 website:
   title: "Rohan's Webpage"
   navbar:
-    background: "#102c3c"
-    # background: "#8C1515"
+    # background: "#102c3c"
+    background: "#8C1515"
     left:
       - href: index.qmd
         text: Home
